@@ -1,0 +1,44 @@
+{
+  "comptes": [
+    {
+      "id": "1",
+      "numero": "ACC001",
+      "dateCreation": "2024-04-01T00:00:00.000",
+      "montant": 5426,
+      "transactions": [],
+      "type": "cheque"
+    },
+    {
+      "id": "2",
+      "numero": "ACC002",
+      "dateCreation": "2024-03-01T00:00:00.000",
+      "montant": 10000,
+      "type": "epargne",
+      "dureeBlocage": 30,
+      "transactions": []
+    },
+    {
+      "id": "ACC003",
+      "numero": "3",
+      "dateCreation": "2025-05-04T10:12:10.686914",
+      "montant": 23500,
+      "transactions": []
+    },
+    {
+      "id": "2",
+      "numero": "ACC002",
+      "dateCreation": "2025-05-04T21:06:33.506716",
+      "montant": 25000,
+      "transactions": []
+    }
+  ],
+  "transactions": [
+    {
+      "id": "R1",
+      "type": "Retrait",
+      "montant": 3000,
+      "date": "2025-05-04T15:54:16.781209",
+      "compteId": "1"
+    }
+  ]
+}

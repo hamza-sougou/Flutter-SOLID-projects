@@ -1,0 +1,33 @@
+En applicant les principes SOLID realiser l'application suivante
+Soit une Gestion Bancaire
+   classe Compte(id:entier,numéro,dateCreation,solde et ses transactions)   
+   Une Transactions avec les attributs suivants :id,type[Dépôt|Retrait], montant,date
+NB :
+Dans ce Systeme gère deux types de comptes : 
+Les Comptes  Épargne qui ont  toutes les caractéristiques d’un compte mais ils ont une durée  de blocage   et durant cette période de blocage  ont ne peut pas faire des opérations de retrait.
+Les Comptes  Cheque  qui ont  toutes les caractéristiques d’un compte mais toutes opérations de dépôt ou de retrait sont facturées.Les frais d’une transaction sont égal à 0.8 du montant de la transaction. 
+Réaliser le Menu suivant : 
+1-Créer  un  compte
+2-Afficher les comptes
+3-Ajouter  une Transaction à un compte
+4-Lister les transactions d’un compte
+5-Quitter
+
+Règles : 
+Les comptes sont stockés dans une Liste ou dans un Fichier texte
+Les  attributs date ne sont pas saisies et sont initialisées a la date du jour
+Les identifiants sont générés
+Le numéro d’un compte est genere suivant la Regle 
+  1er Compte cheque aura comme numero CHEQUE_0001
+  2ieme Compte cheque aura comme numero CHEQUE_0002
+  10ieme Compte cheque aura comme numero CHEQUE_0010
+  
+  1er Compte Epargne aura comme numero EPARGNE_0001
+  2ieme Compte Epargne aura comme numero EPARGNE_0002
+  10ieme Compte Epargne aura comme numero EPARGNE_0010
+
+
+
+
+
+

@@ -1,0 +1,27 @@
+{
+  "comptes": [
+    {
+      "id": "1",
+      "numero": "001",
+      "dateCreation": "2025-05-05T15:56:29.713942",
+      "montant": 65000,
+      "transactions": []
+    },
+    {
+      "id": "1",
+      "numero": "2",
+      "dateCreation": "2025-05-05T16:53:13.208385",
+      "montant": 23000,
+      "transactions": []
+    }
+  ],
+  "transactions": [
+    {
+      "id": "1",
+      "type": "Retrait",
+      "montant": 35000,
+      "date": "2025-05-05T16:09:55.431553",
+      "compteId": "1"
+    }
+  ]
+}
