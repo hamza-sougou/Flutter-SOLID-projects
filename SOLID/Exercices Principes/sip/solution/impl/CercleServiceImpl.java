@@ -1,0 +1,31 @@
+package cours.sip.solution.impl;
+
+import cours.sip.solution.CercleService;
+
+public class CercleServiceImpl  implements CercleService {
+    private double rayon;
+
+    public double getRayon() {
+        return rayon;
+    }
+
+    public void setRayon(double rayon) {
+        this.rayon = rayon;
+    }
+
+    @Override
+    public void surface() {
+        double surface =Math.PI*rayon*rayon;
+        System.out.println("Surface "+surface); 
+    }
+
+    @Override
+    public double demiPerimetre() {
+       return  Math.PI*2*rayon/2;
+    }
+
+    @Override
+    public double diametre() {
+       return 2*rayon;
+    }
+}
